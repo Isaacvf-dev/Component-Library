@@ -18,7 +18,7 @@ export default function Hero() {
         style={{x: imageY}} 
         src={heroImg} 
         alt="icons" 
-        className="h-24 lg:h-56 absolute top-0 right-0 object-cover overflow-hidden"
+        className="h-24 lg:h-56 absolute top-0 right-0 object-cover"
       />
       <h1 className="text-slate-800 text-2xl lg:text-5xl max-w-36 lg:max-w-full text-center">Component Library</h1>
     </header>

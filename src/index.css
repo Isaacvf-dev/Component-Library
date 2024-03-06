@@ -7,6 +7,54 @@
   h1 {
     font-family: "Permanent Marker", sans-serif;
   }
+  section {
+    display: flex;
+    flex-direction: column;
+    background:white;
+    padding: 2em;
+    border-width: 1px;
+    border-radius: 0.75rem;
+    box-shadow: 0 3px 5px #c7d2fe;
+  }
+  .square {
+    border-radius: 4px;
+  }
+  .pill {
+    border-radius: 12px;
+  }
+  .gray {
+    background-color: #F3F4F6;
+    color: #1F2937;    
+  }
+  .red {
+    background-color: #FEE2E2;
+    color: #991B1B;    
+  }
+  .yellow {
+    background-color: #FEF3C7;
+    color: #92400E;    
+  }
+  .green {
+    background-color: #D1FAE5;
+    color: #065F46;    
+  }
+  .blue {
+    background-color: #DBEAFE;
+    color: #1E40AF;    
+  }
+  .indigo {
+    background-color: #E0E7FF;
+    color: #3730A3;    
+  }
+  .purple {
+    background-color: #EDE9FE;
+    color: #5B21B6;    
+  }
+  .pink {
+    background-color: #FCE7F3;
+    color: #9D174D;    
+  }
+  
 }
 
 ::-webkit-scrollbar-track {
