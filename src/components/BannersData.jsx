@@ -1,4 +1,4 @@
-const banners = [
+const bannersData = [
   {title:'Congratulations', icon: '', color: 'green'},
   {title:'Attention', icon: '', color: 'yellow'},
   {title:'There is a problem with your application', icon: '', color: 'red'},
@@ -6,4 +6,4 @@ const banners = [
   
 ]
 
-export default banners
+export default bannersData

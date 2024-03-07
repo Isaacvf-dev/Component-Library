@@ -8,7 +8,7 @@ export default  function BannerSection() {
   return (
     <SectionContainer title={'Banner'}>
       <SubSection title='multi line'>
-        <BannerType />
+        <BannerType type='multi line'/>
       </SubSection>
       <SubSection title='single line'>
         <BannerType />

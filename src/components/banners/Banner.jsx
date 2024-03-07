@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Banner({children = 'Text', color = 'gray', type = 'multiLine'}) {
+export default function Banner({children, color = 'gray', type, title}) {
   return (
     <div>
-      <p>{status}</p>
-      {children}
+      <p className={`text-${color}`}>{title}</p>
+      {children} 
     </div>
   )
 }
