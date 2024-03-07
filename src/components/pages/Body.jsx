@@ -2,6 +2,7 @@ import React from "react";
 import BadgeSection from "../badges/BadgeSection";
 import BannerSection from "../banners/BannerSection";
 import CardSection from "../cards/CardSection";
+import TestimonialSection from "../testimonials/TestimonialSection";
 
 export default function Body() {
   return (
@@ -12,6 +13,7 @@ export default function Body() {
         <BadgeSection />
         <BannerSection />
         <CardSection />
+        <TestimonialSection />
       </div>
       
     </main>
