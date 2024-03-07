@@ -2,7 +2,6 @@ import React from "react";
 import SectionContainer from "../SectionContainer";
 import SubSection from "../SubSection";
 import BannerType from "./BannerType";
-import Badge from "../badges/Badge";
 
 export default  function BannerSection() {
   return (
