@@ -5,7 +5,7 @@ import BannerType from "./BannerType";
 
 export default  function BannerSection() {
   return (
-    <SectionContainer title={'Banner'}>
+    <SectionContainer title={'Banners'}>
       <SubSection title='multi line'>
         <BannerType type='multi line'/>
       </SubSection>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SubSection( {title, children} ) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mt-2 md:mt-6">
       <h3 className="text-lg font-semibold text-gray-800 pl-2 py-2">
         {title.charAt(0).toUpperCase() + title.slice(1)}
       </h3>

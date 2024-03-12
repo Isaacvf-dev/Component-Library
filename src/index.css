@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@layer base {
+@layer base {  
   h1 {
     font-family: "Permanent Marker", sans-serif;
   }
@@ -14,7 +14,7 @@
     padding: 2em;
     border-width: 1px;
     border-radius: 0.75rem;
-    box-shadow: 0 3px 5px #c7d2fe;
+    box-shadow: 0 3px 5px rgb(115 115 115);
   }
   .square {
     border-radius: 4px;
@@ -55,15 +55,16 @@
     color: #9D174D;    
   }
   
+  ::-webkit-scrollbar-track {
+    background-color: #151515;
+  }
+  ::-webkit-scrollbar {
+    width: 3px;
+    background: #f4f4f4;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+  }
+
 }
 
-::-webkit-scrollbar-track {
-  background-color: #151515;
-}
-::-webkit-scrollbar {
-  width: 3px;
-  background: #f4f4f4;
-}
-::-webkit-scrollbar-thumb {
-  background: #dad7d7;
-}

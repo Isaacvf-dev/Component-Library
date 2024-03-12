@@ -1,0 +1,44 @@
+import React from "react";
+import {SiLinkedin, SiGithub, SiGmail  } from "react-icons/si";
+
+
+export default function Footer() {
+  const socials = [
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/isaac-vieira-francelino/',
+      icon: SiLinkedin,
+    },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/Isaacvf-dev',
+      icon: SiGithub,
+    },
+    {
+      name: 'Email',
+      url: 'mailto:isaacvf.dev@gmail.com',
+      icon: SiGmail,
+    },
+  ]
+  return (
+    <footer className="text-slate-800 text-center text-sm bg-indigo-50 m-auto">
+      <div className="m-auto flex flex-col md:flex-row items-center gap-4 justify-around py-3 px-4 max-w-[600px]">
+        <p>Designed and coded with <span className="text-amber-400">♥</span> by Isaac Vieira</p>
+        <div className="flex gap-4">
+          {socials.map( socialButton => (
+            <a 
+              key={socialButton.name}
+              href={socialButton.url}
+              target="_blank"
+              className="p-2 rounded-full bg-transparent border-1 border-amber-400 transition duration-300 ease-in-out hover:bg-amber-400/5"
+            >
+              <socialButton.icon size={14}/>
+            </a>
+            
+          ) )}
+        </div>
+      </div>
+
+    </footer>
+  )
+}

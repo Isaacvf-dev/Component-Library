@@ -1,11 +1,11 @@
 import React from "react";
+import companyLogo from "../../../public/assets/company-logo.svg"
 
 export default function Testimonial({ text, author, role, pic }) {
   return (
-    <div
-      className=" my-8"
-    >
-      <div className="bg-blue-800 text-white flex flex-col md:items-end items-center relative md:mx-10">
+    <div className=" my-8">
+      {pic ?
+        (<div className="bg-blue-800 text-white flex flex-col md:items-end items-center relative md:mx-10">
         <div className="p-4 z-10 md:left-3 lg:left-5 -top-10 md:-top-6 lg:-top-8 absolute">
           <img src={pic} alt="Author image" className="h-[104px] md:h-[234px] w-[184px] md:w-[224px] object-cover rounded-lg object-center" />
         </div>
@@ -22,7 +22,17 @@ export default function Testimonial({ text, author, role, pic }) {
 
         </div>
 
-      </div>
+      </div>) :
+      
+      (<div className="flex flex-col md:text-center text-left md:items-center space-y-6 md:mx-10 md:py-16 py-10 md:px-12 px-4 bg-slate-100">
+        <img src={companyLogo} className="mx-auto"/>
+        <p>{text}</p>
+        <div className="text-xs mt-4 font-semibold">
+          <p>{author} / <span className="text-gray-500">{role}</span></p>          
+        </div>
+      </div>)
+      }
+      
 
     </div>
   )
