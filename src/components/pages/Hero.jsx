@@ -1,6 +1,6 @@
 import React from "react"
-import heroImgRight from "../../../public/assets/hero-img.png"
-import heroImgLeft from "../../../public/assets/hero-img-left.png"
+import heroImgRight from "/assets/hero-img.png"
+import heroImgLeft from "/assets/hero-img-left.png"
 import {motion, useScroll, useTransform} from "framer-motion"
 
 export default function Hero() {

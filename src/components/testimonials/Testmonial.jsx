@@ -1,5 +1,5 @@
 import React from "react";
-import companyLogo from "../../../public/assets/company-logo.svg"
+import companyLogo from "/assets/company-logo.svg"
 
 export default function Testimonial({ text, author, role, pic }) {
   return (
