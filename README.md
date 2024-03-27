@@ -1,8 +1,72 @@
-# React + Vite
+# Scrimba - Component Library project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project of the [Component Library on Scrimba](https://scrimba.com/learn/frontend). Scrimba helps you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Requirements](#requirements)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Getting Started with Create React App](#getting-started-with-create-react-app)
+- [My process](#my-process)
+  - [Built with](#built-with)  
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### Requirements
+
+- Build the components Badges, Banners, Cards, Testimonials
+- According to figma, display each component's variations
+- Foccus in reusability
+- Styled, polished and responsive
+  
+
+
+### Screenshot
+
+![screenshot](/public/screenshoot.png)
+
+### Links
+
+- Live Site URL: [@Netlify](https://component-liby.netlify.app/)
+- Solution URL: [@GitHub](https://github.com/Isaacvf-dev/Component-Library)
+
+### Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## My process
+
+### Built with
+
+- HTML
+- CSS 
+- React.JS
+- TailwindCSS
+  
+
+
+
+### Useful resources
+
+- [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
+  
+
+
+## Author
+
+<table>
+  <tr>    
+    <td align="center">
+      <a href="https://github.com/Isaacvf-dev">
+        <img src="https://avatars.githubusercontent.com/u/123469000?v=4" width="100px;" alt="Foto do Isaac Vieira no GitHub"/><br>
+        <sub>
+          <b>Isaac Vieira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
